@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"unsafe"
 
-	"tensor_db/tensor" // Pastikan path ini benar
+	"tensordb/pkg/tensor" // Pastikan path ini benar
 
 	"github.com/edsrzf/mmap-go"
 )

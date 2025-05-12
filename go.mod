@@ -1,4 +1,4 @@
-module tensor_db
+module tensordb
 
 go 1.24.2
 

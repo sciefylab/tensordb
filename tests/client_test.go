@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"tensor_db/tensor"
+	"tensordb/pkg/tensor"
 )
 
 // Asumsikan setupTestClient, assertEqual, assertError, assertErrorContains, assertTrue

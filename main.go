@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os" // Ditambahkan untuk membersihkan direktori data
-	"tensor_db/tensor"
+	"tensordb/pkg/tensor"
 )
 
 func main() {

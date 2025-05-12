@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"tensor_db/tensor"
+	"tensordb/pkg/tensor"
 )
 
 // Asumsikan setupTest, assertEqual, assertError, assertErrorContains, assertTrue

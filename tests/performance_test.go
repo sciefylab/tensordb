@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"tensor_db/client" // Pastikan path import ini benar
-	"tensor_db/tensor" // Pastikan path import ini benar
+	"tensordb/pkg/client" // Pastikan path import ini benar
+	"tensordb/pkg/tensor" // Pastikan path import ini benar
 )
 
 // Asumsikan setupBenchmarkClient ada di test_helpers.go

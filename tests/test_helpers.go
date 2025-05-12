@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"tensor_db/client" // Impor package yang diuji jika helper membutuhkannya
-	"tensor_db/tensor" // Impor package yang diuji jika helper membutuhkannya
+	"tensordb/pkg/client" // Impor package yang diuji jika helper membutuhkannya
+	"tensordb/pkg/tensor" // Impor package yang diuji jika helper membutuhkannya
 )
 
 // setupTestClient menginisialisasi storage, executor, dan client untuk pengujian.
@@ -27,7 +27,7 @@ func setupTestClient(t *testing.T) (string, *client.Client, func()) {
 	}
 
 	executor := tensor.NewExecutor(storage)
-	apiClient := client.NewClient(executor) // Menggunakan client dari tensor_db/client
+	apiClient := client.NewClient(executor) // Menggunakan client dari tensordb/client
 
 	cleanup := func() {
 		if errClose := apiClient.Close(); errClose != nil {
@@ -52,7 +52,7 @@ func setupTest(t *testing.T) (string, *tensor.Executor, func()) {
 		os.RemoveAll(dataDir)
 		t.Fatalf("Gagal membuat storage: %v", errStorage)
 	}
-	executor := tensor.NewExecutor(storage) // Menggunakan tensor.Executor dari tensor_db/tensor
+	executor := tensor.NewExecutor(storage) // Menggunakan tensor.Executor dari tensordb/tensor
 	cleanup := func() {
 		if errClose := executor.Close(); errClose != nil {
 			t.Logf("Peringatan: Error saat menutup executor: %v", errClose)

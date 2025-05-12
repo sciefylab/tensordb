@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"tensordb/pkg/client" // Impor package yang diuji jika helper membutuhkannya
-	"tensordb/pkg/tensor" // Impor package yang diuji jika helper membutuhkannya
+	"github.com/sciefylab/tensordb/pkg/client" // Impor package yang diuji jika helper membutuhkannya
+	"github.com/sciefylab/tensordb/pkg/tensor" // Impor package yang diuji jika helper membutuhkannya
 )
 
 // setupTestClient menginisialisasi storage, executor, dan client untuk pengujian.

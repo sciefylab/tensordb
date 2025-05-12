@@ -1,4 +1,4 @@
-module tensordb
+module github.com/sciefylab/tensordb
 
 go 1.24.2
 

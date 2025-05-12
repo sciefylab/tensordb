@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"tensordb/pkg/tensor"
+	"github.com/sciefylab/tensordb/pkg/tensor"
 )
 
 // Asumsikan setupTestClient, assertEqual, assertError, assertErrorContains, assertTrue

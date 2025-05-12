@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"tensordb/pkg/client" // Pastikan path import ini benar
-	"tensordb/pkg/tensor" // Pastikan path import ini benar
+	"github.com/sciefylab/tensordb/pkg/client" // Pastikan path import ini benar
+	"github.com/sciefylab/tensordb/pkg/tensor" // Pastikan path import ini benar
 )
 
 // Asumsikan setupBenchmarkClient ada di test_helpers.go

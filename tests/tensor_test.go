@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"tensordb/pkg/tensor"
+	"github.com/sciefylab/tensordb/pkg/tensor"
 )
 
 // Asumsikan setupTest, assertEqual, assertError, assertErrorContains, assertTrue
